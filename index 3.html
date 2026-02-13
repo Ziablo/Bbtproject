@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBT Paris • Le Bon, Le Beurre & Le Truand • Jambon-Beurre Artisanal</title>
+    <meta name="description" content="BBT Paris - Sandwicherie artisanale parisienne. Le vrai jambon-beurre avec baguette du Meilleur Ouvrier de France et jambon Prince de Paris.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Grain Overlay -->
+    <div class="grain-overlay"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-main">BBT</span>
+                <span class="logo-sub">Paris</span>
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#story" class="nav-link">Notre Histoire</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#craft" class="nav-link">Notre Savoir-Faire</a></li>
+                <li><a href="#locations" class="nav-link">Boutiques</a></li>
+                <li><a href="#contact" class="nav-link btn-nav">Commander</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">🥖 Depuis 2017</div>
+            <h1 class="hero-title">
+                <span class="title-line">Le Bon,</span>
+                <span class="title-line">Le Beurre</span>
+                <span class="title-line highlight">& Le Truand</span>
+            </h1>
+            <p class="hero-subtitle">
+                L'authentique jambon-beurre parisien, préparé minute avec des ingrédients d'exception
+            </p>
+            <div class="hero-cta">
+                <a href="#menu" class="btn btn-primary">Découvrir le Menu</a>
+                <a href="#locations" class="btn btn-secondary">Nos Adresses</a>
+            </div>
+        </div>
+        
+        <div class="hero-decorations">
+            <div class="deco-circle circle-1"></div>
+            <div class="deco-circle circle-2"></div>
+            <div class="deco-line line-1"></div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <section class="stats-bar">
+        <div class="container-full">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number">3</span>
+                    <span class="stat-label">Boutiques à Paris</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Fait Minute</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">MOF</span>
+                    <span class="stat-label">Baguette d'Excellence</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">5.8k</span>
+                    <span class="stat-label">Gourmands sur Instagram</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="story" id="story">
+        <div class="container">
+            <div class="story-grid">
+                <div class="story-image">
+                    <div class="image-frame">
+                        <div class="image-placeholder">🇫🇷</div>
+                    </div>
+                </div>
+                <div class="story-content">
+                    <span class="section-tag">Notre Histoire</span>
+                    <h2 class="section-title">Le casse-croûte des copains, le vrai sandwich parisien</h2>
+                    <div class="story-text">
+                        <p>
+                            <strong>BBT</strong>, c'est avant tout une passion pour le jambon-beurre, 
+                            ce sandwich iconique qui fait la fierté de Paris. Créé par deux amis, 
+                            notre concept repose sur une philosophie simple : sublimer la tradition 
+                            avec des ingrédients d'exception.
+                        </p>
+                        <p>
+                            Celui qui a du goût, celui qui nous rappelle le pique-nique avec les copains. 
+                            Notre recette ? Une <strong>baguette aux farines anciennes paysannes & Bio</strong> 
+                            du Meilleur Ouvrier de France Olivier Magne, le <strong>jambon blanc artisanal 
+                            de la famille Mauriac</strong>, et notre sélection de <strong>fromages fermiers</strong>. 
+                            Le tout à un prix raisonnable.
+                        </p>
+                        <p>
+                            "On veut que ce soit le casse-croûte des copains, l'endroit où tu te fais 
+                            plaisir, le vrai sandwich parisien."
+                        </p>
+                    </div>
+                    <div class="signature">
+                        <span class="signature-line"></span>
+                        <span class="signature-text">Les fondateurs de BBT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-section" id="menu">
+        <div class="container">
+            <div class="menu-header">
+                <span class="section-tag">Notre Carte</span>
+                <h2 class="section-title">Des sandwichs qui réveillent les papilles</h2>
+                <p class="menu-intro">
+                    Chaque sandwich est une déclaration d'amour à la gastronomie française. 
+                    Préparés minute avec passion et savoir-faire.
+                </p>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Le Parisien -->
+                <div class="menu-item featured">
+                    <div class="item-badge">Signature</div>
+                    <div class="item-header">
+                        <h3 class="item-name">Le Parisien</h3>
+                        <span class="item-price">9,90€</span>
+                    </div>
+                    <p class="item-description">
+                        Le classique réinventé. Baguette MOF Olivier Magne, jambon "Prince de Paris" 
+                        (le dernier jambon encore produit à Paris), beurre salé.
+                    </p>
+                    <div class="item-tags">
+                        <span class="tag">🥖 Baguette MOF</span>
+                        <span class="tag">🇫🇷 100% Français</span>
+                    </div>
+                </div>
+
+                <!-- Mamma Mia -->
+                <div class="menu-item star">
+                    <div class="item-badge star-badge">★ Best Seller</div>
+                    <div class="item-header">
+                        <h3 class="item-name">Mamma Mia !</h3>
+                        <span class="item-price">10,90€</span>
+                    </div>
+                    <p class="item-description">
+                        Notre spécialité ! Une burrata crémeuse entière, huile d'olive à la truffe, 
+                        jambon Prince de Paris, crème de vinaigre balsamique. Une explosion de saveurs.
+                    </p>
+                    <div class="item-tags">
+                        <span class="tag">🧀 Burrata entière</span>
+                        <span class="tag">🍄 Huile truffe</span>
+                    </div>
+                </div>
+
+                <!-- Le Sauciflard -->
+                <div class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Le Sauciflard</h3>
+                        <span class="item-price">9,90€</span>
+                    </div>
+                    <p class="item-description">
+                        Baguette MOF, saucisson fermier du domaine Abotia, beurre salé, cornichons croquants.
+                    </p>
+                    <div class="item-tags">
+                        <span class="tag">🥒 Cornichons maison</span>
+                    </div>
+                </div>
+
+                <!-- Le Rillette -->
+                <div class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Le Rillette</h3>
+                        <span class="item-price">10,90€</span>
+                    </div>
+                    <p class="item-description">
+                        Baguette MOF, rillettes fermières du moment, cornichons. 
+                        Un goût authentique qui change selon les saisons.
+                    </p>
+                    <div class="item-tags">
+                        <span class="tag">🌾 Produit fermier</span>
+                    </div>
+                </div>
+
+                <!-- Le Fromager -->
+                <div class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Le Fromager</h3>
+                        <span class="item-price">11,40€</span>
+                    </div>
+                    <p class="item-description">
+                        Baguette MOF, fromage fermier du moment (ça change souvent !), 
+                        jambon Prince de Paris, beurre salé. Double plaisir garanti.
+                    </p>
+                    <div class="item-tags">
+                        <span class="tag">🧀 Fromage fermier</span>
+                    </div>
+                </div>
+
+                <!-- Le Végétarien -->
+                <div class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Le Végétarien</h3>
+                        <span class="item-price">10,90€</span>
+                    </div>
+                    <p class="item-description">
+                        Baguette MOF, sauce pistou maison, tomates qui ont du goût, mozzarella fondante.
+                    </p>
+                    <div class="item-tags">
+                        <span class="tag">🌱 Végétarien</span>
+                        <span class="tag">🍅 Produits frais</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-note">
+                <p>💡 <strong>Formule déjeuner :</strong> Sandwich + Dessert + Boisson</p>
+                <p>🍰 Desserts : Moelleux chocolat, Mousse chocolat, Fromage blanc spéculoos</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Craft Section -->
+    <section class="craft-section" id="craft">
+        <div class="container">
+            <div class="craft-header">
+                <span class="section-tag light">Notre Savoir-Faire</span>
+                <h2 class="section-title light">L'excellence dans chaque bouchée</h2>
+            </div>
+
+            <div class="craft-grid">
+                <div class="craft-card">
+                    <div class="craft-icon">🥖</div>
+                    <h3>Baguette d'Exception</h3>
+                    <p>
+                        Fabriquée par <strong>Olivier Magne</strong>, Meilleur Ouvrier de France. 
+                        Farines anciennes paysannes & Bio pour un goût incomparable et une texture croustillante.
+                    </p>
+                </div>
+
+                <div class="craft-card">
+                    <div class="craft-icon">🥓</div>
+                    <h3>Jambon Prince de Paris</h3>
+                    <p>
+                        Le <strong>dernier jambon encore produit à Paris</strong>. Celui-là même 
+                        servi à La Tour d'Argent. Un jambon artisanal de la famille Mauriac, 
+                        au goût délicat et raffiné.
+                    </p>
+                </div>
+
+                <div class="craft-card">
+                    <div class="craft-icon">🧈</div>
+                    <h3>Beurre Salé Premium</h3>
+                    <p>
+                        Un beurre <strong>de caractère</strong> qui sublime chaque sandwich. 
+                        Sélectionné pour sa texture crémeuse et son goût prononcé.
+                    </p>
+                </div>
+
+                <div class="craft-card">
+                    <div class="craft-icon">🧀</div>
+                    <h3>Fromages Fermiers</h3>
+                    <p>
+                        Une sélection changeante de <strong>fromages fermiers</strong> 
+                        soigneusement choisis. Parce que la diversité fait aussi partie du plaisir.
+                    </p>
+                </div>
+
+                <div class="craft-card">
+                    <div class="craft-icon">⏱️</div>
+                    <h3>Préparé Minute</h3>
+                    <p>
+                        Chaque sandwich est <strong>assemblé devant vous</strong> avec soin et attention. 
+                        Fraîcheur et qualité garanties à chaque commande.
+                    </p>
+                </div>
+
+                <div class="craft-card">
+                    <div class="craft-icon">🌾</div>
+                    <h3>Producteurs Locaux</h3>
+                    <p>
+                        Nous privilégions les <strong>circuits courts</strong> et travaillons 
+                        directement avec des producteurs passionnés. Du terroir à votre assiette.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Locations Section -->
+    <section class="locations-section" id="locations">
+        <div class="container">
+            <div class="locations-header">
+                <span class="section-tag">Nos Boutiques</span>
+                <h2 class="section-title">3 adresses pour vous régaler</h2>
+                <p class="locations-intro">
+                    Retrouvez-nous dans nos boutiques parisiennes, où l'authenticité 
+                    et la chaleur sont au rendez-vous.
+                </p>
+            </div>
+
+            <div class="locations-grid">
+                <!-- 8ème -->
+                <div class="location-card">
+                    <div class="location-number">01</div>
+                    <h3 class="location-name">BBT 8ème</h3>
+                    <div class="location-info">
+                        <p class="location-address">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/>
+                            </svg>
+                            6 rue La Boétie, 75008 Paris
+                        </p>
+                        <p class="location-metro">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                <path d="M8 12h8M12 8v8" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            M Saint-Philippe du Roule
+                        </p>
+                        <p class="location-hours">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                <path d="M12 6v6l4 2" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            Lun-Ven : 11h00 - 14h30
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 9ème -->
+                <div class="location-card featured">
+                    <div class="location-badge">📍 Boutique Originale</div>
+                    <div class="location-number">02</div>
+                    <h3 class="location-name">BBT 9ème</h3>
+                    <div class="location-info">
+                        <p class="location-address">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/>
+                            </svg>
+                            31 rue de Châteaudun, 75009 Paris
+                        </p>
+                        <p class="location-metro">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                <path d="M8 12h8M12 8v8" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            M Notre-Dame de Lorette
+                        </p>
+                        <p class="location-hours">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                <path d="M12 6v6l4 2" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            Lun-Ven : 11h00 - 14h30
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 2ème -->
+                <div class="location-card">
+                    <div class="location-number">03</div>
+                    <h3 class="location-name">BBT 2ème</h3>
+                    <div class="location-info">
+                        <p class="location-address">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/>
+                            </svg>
+                            16 rue Saint Augustin, 75002 Paris
+                        </p>
+                        <p class="location-metro">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                <path d="M8 12h8M12 8v8" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            M Quatre Septembre
+                        </p>
+                        <p class="location-hours">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                <path d="M12 6v6l4 2" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            Lun-Ven : 11h00 - 14h30
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="delivery-info">
+                <h3>🚴 Livraison disponible</h3>
+                <p>Commandez sur <strong>Uber Eats</strong> et dégustez BBT chez vous ou au bureau !</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-content">
+                    <span class="section-tag">Restons en Contact</span>
+                    <h2 class="section-title">Une question ? Une envie de sandwich ?</h2>
+                    <p class="contact-text">
+                        Suivez-nous sur Instagram pour découvrir nos nouveautés, 
+                        nos coulisses et vous mettre l'eau à la bouche au quotidien !
+                    </p>
+                    
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/bbtparis/" target="_blank" class="social-link instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.25a1.25 1.25 0 0 0-2.5 0 1.25 1.25 0 0 0 2.5 0zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/>
+                            </svg>
+                            <span>@bbtparis</span>
+                            <span class="followers">5.8k followers</span>
+                        </a>
+                    </div>
+
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <span class="info-icon">📞</span>
+                            <div>
+                                <strong>Téléphone</strong>
+                                <p>06 60 72 02 33</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">🌐</span>
+                            <div>
+                                <strong>Site Web</strong>
+                                <p><a href="https://www.bbtparis.com" target="_blank">www.bbtparis.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-cta-box">
+                    <h3>Commandez dès maintenant</h3>
+                    <p>
+                        Retrouvez BBT Paris sur Uber Eats pour une livraison rapide 
+                        de nos sandwichs artisanaux directement chez vous.
+                    </p>
+                    <a href="https://www.ubereats.com/fr/store/bbt-sandwicherie-artisanale-9e/Wy8aKbnmREKLVN1wK3Fv4g" target="_blank" class="btn btn-primary btn-large">
+                        Commander sur Uber Eats
+                    </a>
+                    <p class="delivery-time">🚴 Livraison en 20-30 min</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-main">BBT</span>
+                        <span class="logo-sub">Paris</span>
+                    </div>
+                    <p class="footer-tagline">
+                        Le Bon, Le Beurre & Le Truand<br>
+                        L'authentique jambon-beurre parisien
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#story">Notre Histoire</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#craft">Savoir-Faire</a></li>
+                        <li><a href="#locations">Boutiques</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Nos Boutiques</h4>
+                    <ul>
+                        <li>6 rue La Boétie, 75008</li>
+                        <li>31 rue de Châteaudun, 75009</li>
+                        <li>16 rue Saint Augustin, 75002</li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Horaires</h4>
+                    <ul>
+                        <li>Lundi - Vendredi</li>
+                        <li>11h00 - 14h30</li>
+                        <li><br></li>
+                        <li>Livraison Uber Eats</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 BBT Paris - Le Bon, Le Beurre & Le Truand. Tous droits réservés.</p>
+                <p class="footer-love">Fait avec 🥖 et ❤️ à Paris</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
